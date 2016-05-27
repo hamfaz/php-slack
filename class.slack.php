@@ -2,12 +2,17 @@
 /**
  * class hook slack
  *
+ * @link https://github.com/hamfaz/php-slack
  * @author hamam fajar <hamamfajar@gmail.com> | @hamfaz
+ * @version 0.1
  */
 
 class hookSlack
 {
 
+  /**
+   * @var string
+   */
   public $api_url = '';
 
   public function __construct()
